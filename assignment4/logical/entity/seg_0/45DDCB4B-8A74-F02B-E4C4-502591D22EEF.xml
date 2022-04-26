@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45DDCB4B-8A74-F02B-E4C4-502591D22EEF" name="MEAL">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:33:29 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorAttributeID>3414DC05-CE5A-D1AC-67C8-947018AB213A</discriminatorAttributeID>
+<discriminatorValue>E for Entree, D for Dessert, B for Both</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MEAL_ID" id="DCD9C9B6-0EBC-BE2F-D472-3BF71A4BCA56">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:33:34 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALORIES" id="07C9F9E4-8F7D-7105-3B38-B205435C7EC3">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:33:49 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTREE_DESSERT_BOTH" id="3414DC05-CE5A-D1AC-67C8-947018AB213A">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:36:53 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEAL_ID1" id="7C344F13-C490-A0A0-6CD5-7FA1F247782C">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:56:03 UTC</createdTime>
+<generatorID>70D01DAF-86D8-3B83-54C2-7BD9A2028769</generatorID>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<referedAttribute>E38A6688-4398-3559-1B5E-D1F046418726</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDDE1A30-D337-A1EC-3FA4-35EED611A0BA" name="MEAL PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:33:48 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCD9C9B6-0EBC-BE2F-D472-3BF71A4BCA56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

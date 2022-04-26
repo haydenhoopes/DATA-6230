@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AAE555F-C758-9009-6069-5373F266753F" name="Relation_2">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_ID" id="9D07B0BB-78C8-8F18-3588-E7F2F01A6432">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9EA30FD-8571-56C5-AAB7-2744D35FEE5B" referredColumn="22D8E159-5802-054E-36A0-7E02C4F3BD9B"/>
+</associations>
+</Column>
+<Column name="CLASS_ID" id="C5911043-A01E-39DE-264E-D7BE21DBB794">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FF39E83-C9F1-F872-61CB-8EB21F9742EC" referredColumn="EEAA661C-D1FF-6281-F77C-9B8E0CCEF17D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81447CB5-8C30-78AE-7D4B-0413846D33BD" name="Relation_2_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D07B0BB-78C8-8F18-3588-E7F2F01A6432"/>
+<colUsage columnID="C5911043-A01E-39DE-264E-D7BE21DBB794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12DB7FE2-1415-EF6A-006D-94E3426CA4F6" name="Relation_2_STUDENT_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>361B997C-5C52-47DF-0484-5CF7A4A459AB</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D07B0BB-78C8-8F18-3588-E7F2F01A6432"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6F9E682-7FC8-3575-D264-B65476AD2DD9" name="Relation_2_CLASS_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>361B997C-5C52-47DF-0484-5CF7A4A459AB</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5911043-A01E-39DE-264E-D7BE21DBB794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

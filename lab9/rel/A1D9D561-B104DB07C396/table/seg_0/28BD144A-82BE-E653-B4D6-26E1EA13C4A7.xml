@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28BD144A-82BE-E653-B4D6-26E1EA13C4A7" name="Doctor">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>6DE8729B-5381-E8FF-001E-EF051908FE5E</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<abbreviation>Doctor</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOC_ID" id="1564F5E8-88E9-9856-7D01-83E985FD2FFC">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>1EF31BB6-9626-03AB-5BC5-ED2CA6E7E77C</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOC_FIRST_NAME" id="AC55CE10-2805-86B4-882A-146D9B7A82B8">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>E89FFCD5-E2D9-D5A4-4391-E5D0110CE890</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOC_LAST_NAME" id="4D0FAEA0-D9AA-9688-995A-295E6ADBA284">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>146E8AC7-15A3-5DBA-CA33-2E42CEF27A3B</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOC_CELL_PHONE" id="889E3A91-9B91-B96F-39C3-26E78858FBDB">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>4304F026-8C04-4417-25F5-0B59C4410EA1</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F6B2227-A3F9-016C-E509-7B28BFA04796" name="Doctor_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>5C53FC37-1B9C-5B32-A3CF-C660D3F2BC6F</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1564F5E8-88E9-9856-7D01-83E985FD2FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

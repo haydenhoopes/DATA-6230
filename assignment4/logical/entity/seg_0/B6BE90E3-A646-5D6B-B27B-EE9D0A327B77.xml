@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6BE90E3-A646-5D6B-B27B-EE9D0A327B77" name="MEAL_EVENT">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:16:37 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MEAL_EVENT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MEAL_ID" id="E38A6688-4398-3559-1B5E-D1F046418726">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:16:44 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="THEME" id="1B6DFC42-F95D-62C8-A0B6-FF654D8FF0F4">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:16:58 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DRESS_CODE" id="FA9F7074-D596-6DED-4588-246460A39528">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:19:12 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE" id="E587C134-7718-BB04-0399-FCB84477ABB2">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:19:30 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE" id="23F5BBCD-1F55-FCCD-04FF-801F27402E7B">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:21:27 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEAL_ID1" id="FDF028AF-2F7C-E936-4863-929EAEBFCFA8">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:57:05 UTC</createdTime>
+<generatorID>70D01DAF-86D8-3B83-54C2-7BD9A2028769</generatorID>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<referedAttribute>DCD9C9B6-0EBC-BE2F-D472-3BF71A4BCA56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D213BF50-6F37-2F44-2FD7-7AEADFDCEBA3" name="MEAL PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:16:56 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E38A6688-4398-3559-1B5E-D1F046418726</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

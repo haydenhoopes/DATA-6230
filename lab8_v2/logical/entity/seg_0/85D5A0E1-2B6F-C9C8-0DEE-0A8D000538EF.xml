@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85D5A0E1-2B6F-C9C8-0DEE-0A8D000538EF" name="RANK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:54:32 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RANK_ID" id="926A1516-115E-53C7-CBB2-817096C1A4FD">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:54:40 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BELT_COLOR" id="7131E0C4-808D-ADB7-9643-416166B59FC5">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:54:58 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_EARNED" id="8CC85C00-C1D5-8C7D-6CD2-8D5F01E286DC">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:55:24 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F08B3CAA-CDD3-76E1-3364-912FCE7BFD1C" name="RANK PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:54:55 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>926A1516-115E-53C7-CBB2-817096C1A4FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

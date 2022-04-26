@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86861D70-3EEB-1049-1B51-658D154C2334" name="RANK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>20FFAC3E-C97B-D23F-B9B8-F426119A24B6</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BELT_COLOR" id="2FE526F1-A634-8859-2BAE-AE0D9E3D839B">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>CD790999-53CC-FB05-93F2-4E7C5E6133AD</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_EARNED" id="812FE12F-4C83-5421-9598-160CF79E74EA">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>1ADF9FCF-ED4C-4A74-2075-0118BEF8ECC6</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RANK_ID" id="115C46BF-582C-A0CA-F1AB-E3CFEBDAFDDE">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="706A1539-5E93-AF54-7E51-338E068E3F23" name="RANK_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="115C46BF-582C-A0CA-F1AB-E3CFEBDAFDDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

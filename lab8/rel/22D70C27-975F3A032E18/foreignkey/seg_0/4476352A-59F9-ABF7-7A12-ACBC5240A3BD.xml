@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4476352A-59F9-ABF7-7A12-ACBC5240A3BD" containerWithKeyObject="A07A3854-ECE3-CC6C-A779-8DBCCCF6B04A" localFKIndex="55C62837-90C9-1CB0-1EF0-902A5D3B2917" name="Relation_5_RANK_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>3248036D-D5B4-2B32-688F-8308739C6DC3</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<referredTableLongName>RANK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86861D70-3EEB-1049-1B51-658D154C2334</referredTableID>
+<keyObject>706A1539-5E93-AF54-7E51-338E068E3F23</keyObject>
+<referredKeyID>706A1539-5E93-AF54-7E51-338E068E3F23</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RANK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

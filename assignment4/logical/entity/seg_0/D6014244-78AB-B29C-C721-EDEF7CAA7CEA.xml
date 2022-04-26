@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6014244-78AB-B29C-C721-EDEF7CAA7CEA" name="CHEF_MEAL">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 04:40:04 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CHEF_MEAL_ID" id="D614040E-89AD-EE1A-527D-85C86E1BE26C">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 04:40:16 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTREE_DESSERT" id="BAF69217-92BC-9D00-B05F-7FEDA1911753">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 04:40:39 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3C85D5A-F4F8-1766-882C-45E9B2D9E371" name="CHEF_EVENT PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 04:40:26 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D614040E-89AD-EE1A-527D-85C86E1BE26C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

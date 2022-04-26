@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34B9A9A7-FF79-EB4D-06F7-DDE86EDAA5C2" name="VENDOR">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>DCC68AC3-F5AB-1E92-B9CF-2A0A65D29358</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VENDOR_ID" id="DA31405C-130C-766E-919D-7AA51CC20889">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>51757587-AB61-6F19-FAA9-26F6B5D9DFFE</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="CA5BD04C-65A2-587F-3293-30C3133469B9">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>54FB307B-16A8-A46E-09C2-4C6DAC2361FB</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_ADDRESS" id="EA258501-9B3A-7904-6F95-0EE853D79458">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>A9380116-5389-11F9-1CB9-831377CF9894</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="813C98D3-FFBE-879F-993F-A28528B55B83">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>D5AEC61A-B429-F4EA-C9FB-8470C0688E9A</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="23DE2076-088F-E7FF-F873-27C46304258E">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>ED0933AA-2593-21A3-AC3B-74050A00F888</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP_CODE" id="FBFB4A60-B891-4C8E-5282-99BDA951A987">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>A5371C65-F4D7-5ABA-9ADB-FD8D0D208D96</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NUMBER" id="5AA3B919-BC83-75D7-15D5-173D5C289031">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>F959EEF3-81AC-D70C-F3E4-60D12042CBE7</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIPPING_TIME" id="E0B5C0DF-245B-9DAD-9440-2567104BEF06">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>FC667DBC-D7CE-826E-F61C-0373BF0D2207</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22E907F1-C2CD-DE2A-C42D-6AE7D038ABA9" name="VENDOR_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>2CD0E031-D819-E126-D48F-A0E62401C87A</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA31405C-130C-766E-919D-7AA51CC20889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

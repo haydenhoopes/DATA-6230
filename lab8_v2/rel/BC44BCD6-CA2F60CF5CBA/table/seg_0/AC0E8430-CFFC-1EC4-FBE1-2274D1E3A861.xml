@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC0E8430-CFFC-1EC4-FBE1-2274D1E3A861" name="CLASS">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>E020C879-294E-794A-25CB-958E0EE9133B</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLASS_ID" id="EEAA661C-D1FF-6281-F77C-9B8E0CCEF17D">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>7C965078-3F00-1149-29B2-A7AEE5C8060E</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEEKDAY" id="83E438F5-A2D3-5460-65F6-8AEB3EE97EC3">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>045D5875-095F-B9CF-7198-D5620E3C3791</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="CB1E5A19-0BAD-DA97-DDCB-9901B32A7932">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>B0F3B426-A6BA-B022-77F7-68EC38307964</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="F4E17C82-6FB8-582B-E5B7-E24B557FAF54">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>30222516-046F-D258-E07A-96898208144A</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEVEL" id="C8D50056-EDEA-397D-0D5E-F7FA36B91507">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>401C43A8-D4E8-B76B-24DA-797B74CE989D</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUCTOR_INSTRUCTOR_ID" id="671C5D3F-FBCC-76A2-68B0-C77865DD7DCF">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:34:09 UTC</createdTime>
+<generatorID>B9E6DADF-07CD-8DAF-E6F9-45DD424D4CEC</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E326822-C874-C4F1-BA85-EC7E0ACBE535" referredColumn="E2CC8E76-9EB5-9B75-B923-7B0CA0FCEF37"/>
+</associations>
+</Column>
+<Column name="LEVEL1" id="52363D2A-1679-B164-8B6D-791E8E7B4672">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:34:09 UTC</createdTime>
+<generatorID>A44261AC-184E-C82A-4799-D08330EA2EF5</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FA1C1A5-4060-9D9B-97F7-9B6CEF9B98B6" name="CLASS_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>2C5DF741-C884-C890-6E51-C9513B927572</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEAA661C-D1FF-6281-F77C-9B8E0CCEF17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5B57910-8AAA-F086-609E-331B43E7EA9C" name="CLASS_INSTRUCTOR_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:34:09 UTC</createdTime>
+<generatorID>11A99B16-B546-4073-D34B-E9BFDBA69E2D</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="671C5D3F-FBCC-76A2-68B0-C77865DD7DCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

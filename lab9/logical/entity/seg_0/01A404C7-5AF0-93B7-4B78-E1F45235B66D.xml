@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01A404C7-5AF0-93B7-4B78-E1F45235B66D" name="Patient">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:18:44 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Patient</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PATIENT_ID" id="73CF00A1-F5B5-1E8C-ADF2-698E9B8F79A2">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:19:09 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="766605BD-0FB9-2519-838A-13CD55601142">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:19:24 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="D9E0FC44-93FB-4691-1543-A7F88531ED1D">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:19:41 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATE" id="3D6E1C4C-F2B6-C7B6-BAB7-39AFDF8AB808">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:19:56 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIP" id="558EB39F-D1D7-7E1A-64C9-FC9C6653B081">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:20:14 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71C56AF9-E383-AFF9-C523-4D5B235A7EA6" name="Patient PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:19:22 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73CF00A1-F5B5-1E8C-ADF2-698E9B8F79A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="3AD60E37-B2F0-41C1-767C-0E51C6A2E05C">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 04:41:26 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>is prepared by</nameOnSource>
+<nameOnTarget>prepares dessert or entree at</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>69054ED3-A3EA-9792-BEB0-E4A7DF5047EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D6014244-78AB-B29C-C721-EDEF7CAA7CEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

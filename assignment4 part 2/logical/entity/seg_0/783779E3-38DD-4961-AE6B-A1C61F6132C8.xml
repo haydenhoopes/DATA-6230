@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="783779E3-38DD-4961-AE6B-A1C61F6132C8" name="AUTHOR">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 05:04:18 UTC</createdTime>
+<ownerDesignName>assignment4 part 2</ownerDesignName>
+<engineerTo>
+<item key="CB9DA4DC-D9E3-7804-D944-9524B48B0626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AUTHOR_ID" id="62C4C5CA-E533-62A7-F2D2-90681599CE89">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 05:04:30 UTC</createdTime>
+<ownerDesignName>assignment4 part 2</ownerDesignName>
+<engineerTo>
+<item key="CB9DA4DC-D9E3-7804-D944-9524B48B0626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SSN" id="84EB5C4A-6A20-DF7D-634B-A776838FB37B">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 05:04:41 UTC</createdTime>
+<ownerDesignName>assignment4 part 2</ownerDesignName>
+<engineerTo>
+<item key="CB9DA4DC-D9E3-7804-D944-9524B48B0626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="375A941D-9D80-F64B-C544-FA1BFE9C080B">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 05:04:49 UTC</createdTime>
+<ownerDesignName>assignment4 part 2</ownerDesignName>
+<engineerTo>
+<item key="CB9DA4DC-D9E3-7804-D944-9524B48B0626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN" id="0827876A-C1F9-2D10-BFE9-3E205B85218C">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 05:07:19 UTC</createdTime>
+<generatorID>EB9D7658-8BC2-6C52-F706-EF6EBB8C3C86</generatorID>
+<ownerDesignName>assignment4 part 2</ownerDesignName>
+<engineerTo>
+<item key="CB9DA4DC-D9E3-7804-D944-9524B48B0626" value="true"/>
+</engineerTo>
+<referedAttribute>FEABAF06-ECA8-E41A-7FF3-1FDB23232E01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AE1E2A2-9DD6-4452-ECB9-21CE6A4327D9" name="AUTHOR PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 05:04:37 UTC</createdTime>
+<ownerDesignName>assignment4 part 2</ownerDesignName>
+<engineerTo>
+<item key="CB9DA4DC-D9E3-7804-D944-9524B48B0626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62C4C5CA-E533-62A7-F2D2-90681599CE89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

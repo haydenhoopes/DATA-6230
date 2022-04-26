@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C25402F2-69F3-A849-A3EB-F16856F356C1" name="CLASS">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 02:13:32 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CLASS_ID" id="B3F329D1-B467-0EB2-6EBE-945F3EE8AB29">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:48:34 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSTRUCTOR_NUMBER" id="423F187A-9857-9A4E-57EC-E3EB2E27CC89">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:49:01 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEKDAY" id="5247479F-3A8E-E781-FCB9-9C0FA849A00D">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:52:25 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIME" id="54F6D77D-A31D-BBC0-6A4A-A2BE0BB9A247">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:52:39 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCATION" id="C3C7079C-0CD8-9AA4-14AA-0B6B101919A8">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:53:34 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LEVEL" id="96153D07-A040-8D75-C3E6-A345E69C87F4">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:54:25 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="844F85C7-82E2-707A-6C7E-EA8F34547C60" name="CLASS PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:51:01 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3F329D1-B467-0EB2-6EBE-945F3EE8AB29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

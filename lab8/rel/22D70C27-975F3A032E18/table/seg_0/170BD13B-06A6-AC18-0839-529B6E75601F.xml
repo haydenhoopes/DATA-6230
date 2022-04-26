@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="170BD13B-06A6-AC18-0839-529B6E75601F" name="COMPENSATED">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>7B9B11A1-8789-C162-2BA3-F0D3DA0D8A99</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_NUMBER" id="8363B059-D2EF-73C2-538B-BF4F37ED197E">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>36D19CD7-0805-0F21-547E-B3B0B1490C49</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUCTOR_ID" id="C27F9027-AB25-275D-CF5B-892D20B13040">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>C1680BCF-34D2-2275-59ED-047950166D06</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E74A1457-32F8-D78B-BA62-73529F10195D" name="COMPENSATED_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>5659A87E-C89C-E30F-A12D-D082BDA1D9D9</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8363B059-D2EF-73C2-538B-BF4F37ED197E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B290CD12-07E8-5FFE-9772-0460919BE039" name="COMPENSATED_PKv1">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>2251E25C-2BBE-8718-8009-D134A4DE281E</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C27F9027-AB25-275D-CF5B-892D20B13040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

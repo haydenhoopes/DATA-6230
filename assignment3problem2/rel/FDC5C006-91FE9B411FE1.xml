@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="FDC5C006-C921-3C14-CE32-91FE9B411FE1" mainViewID="A20D180C-921C-5206-FB02-3DA374561800">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:46:34 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

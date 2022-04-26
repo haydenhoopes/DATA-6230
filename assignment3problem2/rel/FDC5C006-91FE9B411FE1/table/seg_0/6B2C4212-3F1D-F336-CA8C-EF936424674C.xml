@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B2C4212-3F1D-F336-CA8C-EF936424674C" name="Relation_1">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PART_ID" id="B29C58F4-928C-9A2C-CA03-6A04AEF9EC9A">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D612D44-F1A6-C72B-9E33-C599B1C38125" referredColumn="A3381C54-11C7-00DC-71D9-E91EEC6E2E25"/>
+</associations>
+</Column>
+<Column name="PRODUCT_SKU" id="CF83B4C0-95B4-1D8E-AB1B-AFF0C10B6275">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D7E8D04-88DB-84E8-521F-490FFD7246C9" referredColumn="80DE3C3C-6FDC-B5FF-FF09-85C25E0004FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D1FB847-F2B8-6DF8-F70E-D7B497EE78E9" name="Relation_1_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B29C58F4-928C-9A2C-CA03-6A04AEF9EC9A"/>
+<colUsage columnID="CF83B4C0-95B4-1D8E-AB1B-AFF0C10B6275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0D2AF93-493C-3F5B-4C64-7D225ED4B7CE" name="Relation_1_PART_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>1273373E-2D57-B944-992E-7F3605CB4248</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B29C58F4-928C-9A2C-CA03-6A04AEF9EC9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D13E939B-6C56-1F02-41AC-0A309C2ED81F" name="Relation_1_PRODUCT_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:10:30 UTC</createdTime>
+<generatorID>1273373E-2D57-B944-992E-7F3605CB4248</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF83B4C0-95B4-1D8E-AB1B-AFF0C10B6275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

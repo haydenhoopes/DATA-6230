@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C625BA60-1A56-75BB-C5C1-1202F5B8C0D4" name="INSTRUCTOR">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:45:00 UTC</createdTime>
+<generatorID>65011FC5-36CB-0068-1243-1C6337EAB5EA</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_NUMBER" id="636B31B6-E35D-5B9E-255D-FE992EBBE4BC">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:45:00 UTC</createdTime>
+<generatorID>36D19CD7-0805-0F21-547E-B3B0B1490C49</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUCTOR_ID" id="053D3127-ED61-4545-6BB1-3A5CF607971A">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:45:00 UTC</createdTime>
+<generatorID>C1680BCF-34D2-2275-59ED-047950166D06</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_STARTED" id="7359594D-8DDE-377A-2BD6-FD663EFAC4A2">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:45:00 UTC</createdTime>
+<generatorID>238AA3B1-41AE-6D1D-5A8B-FE6AC795E930</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="EDEE15B9-10E2-CEED-ACE8-CCE860A66695">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:45:00 UTC</createdTime>
+<generatorID>0737CBD3-228A-24F6-F950-C88F043DDC63</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="73A817E9-B7A2-DCD4-4B35-674EE11B8FBB">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>2A257444-C5AE-751E-EF63-A7B26631CA1F</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_OF_BIRTH" id="D75F2921-285A-A25F-B118-69337AA20A18">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>63B4B6D2-9DCE-225F-F261-C5C053B811A9</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_JOINED" id="615D51F2-892E-76D1-67B3-DD2B5AF87333">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>2B37431E-AFFC-E384-8F13-B93CF90312C8</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="D570CCF1-FC6E-BD07-7328-A61AD25A5744">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>B434A42D-408B-FC22-6B92-604ED446A25E</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_INSTRUCTOR_FLAG" id="FDEFD6A1-9914-2340-3463-84285B7C16AB">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>E5372958-0051-ED8E-B53E-0F37D06E8E96</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7D77C09-D61E-430C-44C0-A20D8FF83834" name="INSTRUCTOR_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:45:00 UTC</createdTime>
+<generatorID>5659A87E-C89C-E30F-A12D-D082BDA1D9D9</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="636B31B6-E35D-5B9E-255D-FE992EBBE4BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54012396-5AF6-7358-51F3-5D9AE63F17F4" name="INSTRUCTOR_PKv1">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:45:00 UTC</createdTime>
+<generatorID>2251E25C-2BBE-8718-8009-D134A4DE281E</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="053D3127-ED61-4545-6BB1-3A5CF607971A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

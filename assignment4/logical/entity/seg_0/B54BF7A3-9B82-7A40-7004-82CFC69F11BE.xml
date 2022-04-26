@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B54BF7A3-9B82-7A40-7004-82CFC69F11BE" name="INVITATION">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:44:08 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INVITATION_ID" id="BA4A1EA0-E79C-5515-93F3-6CBA4D7DE9BC">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:44:19 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAILED" id="B1A4BC25-D43E-1477-1AD2-E24E1F1DCDEE">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:44:31 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RSVP_STATUS" id="104D5FB1-D8B9-177E-1700-6E10C3ACC134">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:46:58 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCATION_ID" id="658CFD6F-9659-7045-A7C2-B65B4F129016">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:54:06 UTC</createdTime>
+<generatorID>3069A79E-4FD8-D90B-51E4-F61A1EEDDF6C</generatorID>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F53F9678-0609-75E4-167F-7883E44F1EBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB6F5DE2-6453-0C14-6E53-FAAE6E78D435" name="INVITATION PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 03:44:29 UTC</createdTime>
+<ownerDesignName>assignment4</ownerDesignName>
+<engineerTo>
+<item key="7E5E3029-B755-76DC-362E-D6B0B96C4C87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA4A1EA0-E79C-5515-93F3-6CBA4D7DE9BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

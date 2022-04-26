@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E020C879-294E-794A-25CB-958E0EE9133B" name="CLASS">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:55:42 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CLASS_ID" id="7C965078-3F00-1149-29B2-A7AEE5C8060E">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:55:51 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEEKDAY" id="045D5875-095F-B9CF-7198-D5620E3C3791">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:56:49 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIME" id="B0F3B426-A6BA-B022-77F7-68EC38307964">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:57:04 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCATION" id="30222516-046F-D258-E07A-96898208144A">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:57:17 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSTRUCTOR_ID" id="B9E6DADF-07CD-8DAF-E6F9-45DD424D4CEC">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:28:30 UTC</createdTime>
+<generatorID>11A99B16-B546-4073-D34B-E9BFDBA69E2D</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>13BAA037-65D6-5A7A-AD8A-04974961DE13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LEVEL" id="A44261AC-184E-C82A-4799-D08330EA2EF5">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:33:05 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C5DF741-C884-C890-6E51-C9513B927572" name="CLASS PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:56:04 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C965078-3F00-1149-29B2-A7AEE5C8060E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

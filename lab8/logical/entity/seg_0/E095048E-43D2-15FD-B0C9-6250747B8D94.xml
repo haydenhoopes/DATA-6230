@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E095048E-43D2-15FD-B0C9-6250747B8D94" name="STUDENT">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 02:13:19 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorAttributeID>E5372958-0051-ED8E-B53E-0F37D06E8E96</discriminatorAttributeID>
+<discriminatorValue>1 if instructor, 0 if not</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDENT_NUMBER" id="36D19CD7-0805-0F21-547E-B3B0B1490C49">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:28:07 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="2A257444-C5AE-751E-EF63-A7B26631CA1F">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:28:55 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_OF_BIRTH" id="63B4B6D2-9DCE-225F-F261-C5C053B811A9">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:30:44 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_JOINED" id="2B37431E-AFFC-E384-8F13-B93CF90312C8">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:31:02 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE" id="B434A42D-408B-FC22-6B92-604ED446A25E">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:02:33 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS_INSTRUCTOR_FLAG" id="E5372958-0051-ED8E-B53E-0F37D06E8E96">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:13:37 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5659A87E-C89C-E30F-A12D-D082BDA1D9D9" name="STUDENT PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:29:46 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36D19CD7-0805-0F21-547E-B3B0B1490C49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

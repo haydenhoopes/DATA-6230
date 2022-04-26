@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7711E452-88CD-3E9D-4AE7-D2CF28113463" name="CLASS_MEETING">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:02:49 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CLASS_MEETING_ID" id="FED98D70-A244-B257-D5DB-9D6E24832623">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:03:06 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASS_DATE" id="7460E504-7C95-DA64-04EC-54B49951A48C">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:03:24 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASS_TIME" id="60D7BCE7-AB49-6EC3-2838-E1999FFE6B26">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:04:03 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSTRUCTOR_ROLE" id="F263340E-5E9C-95F4-7CDF-F2FF78C2AF19">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:04:15 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASS_ID" id="84777EA7-C422-48E7-6E10-F012B3096E96">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:06:34 UTC</createdTime>
+<generatorID>2636E2AE-8E33-515C-6495-DE54FF3F2FF8</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<referedAttribute>7C965078-3F00-1149-29B2-A7AEE5C8060E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSTRUCTOR_ID1" id="830E3B47-7FD3-9D0D-ECF3-B9F7A8F37679">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:26:35 UTC</createdTime>
+<generatorID>64856AA0-DA7E-9ED4-FA93-1DD4951ECD20</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>13BAA037-65D6-5A7A-AD8A-04974961DE13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F27351B-47E1-A855-9176-3319B8EE9B1E" name="CLASS_MEETING PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:03:23 UTC</createdTime>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC44BCD6-6430-AEEE-9946-CA2F60CF5CBA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FED98D70-A244-B257-D5DB-9D6E24832623</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

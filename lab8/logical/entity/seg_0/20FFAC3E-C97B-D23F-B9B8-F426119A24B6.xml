@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20FFAC3E-C97B-D23F-B9B8-F426119A24B6" name="RANK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-19 23:26:39 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BELT_COLOR" id="CD790999-53CC-FB05-93F2-4E7C5E6133AD">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 00:35:10 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_EARNED" id="1ADF9FCF-ED4C-4A74-2075-0118BEF8ECC6">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 00:35:47 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<engineerTo>
+<item key="22D70C27-6091-2C68-FE70-975F3A032E18" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

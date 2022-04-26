@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A07A3854-ECE3-CC6C-A779-8DBCCCF6B04A" name="Relation_5">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMPENSATED_STUDENT_NUMBER" id="44E59367-91D8-1520-FC12-FE0C7AB0BE16">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC6BAC41-1D5C-B5CD-4ADD-57B6F1CF570C" referredColumn="8363B059-D2EF-73C2-538B-BF4F37ED197E"/>
+</associations>
+</Column>
+<Column name="RANK_RANK_ID" id="123FDC32-53EC-108D-8116-6734FDDDA8D6">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4476352A-59F9-ABF7-7A12-ACBC5240A3BD" referredColumn="115C46BF-582C-A0CA-F1AB-E3CFEBDAFDDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0800AA34-60C6-137B-22AE-C310EA42150A" name="Relation_5_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<ownerDesignName>lab8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44E59367-91D8-1520-FC12-FE0C7AB0BE16"/>
+<colUsage columnID="123FDC32-53EC-108D-8116-6734FDDDA8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7977822D-E2FC-A3F5-4357-E0B29882B92D" name="Relation_5_COMPENSATED_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>3248036D-D5B4-2B32-688F-8308739C6DC3</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44E59367-91D8-1520-FC12-FE0C7AB0BE16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55C62837-90C9-1CB0-1EF0-902A5D3B2917" name="Relation_5_RANK_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:48:47 UTC</createdTime>
+<generatorID>3248036D-D5B4-2B32-688F-8308739C6DC3</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="123FDC32-53EC-108D-8116-6734FDDDA8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

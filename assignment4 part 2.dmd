@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="assignment4 part 2" id="6A267828-A283-E3F2-53C7-D32BF61B0847" version="3.5">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-28 05:02:22 UTC</createdTime>
+<ownerDesignName>assignment4 part 2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6A267828-A283-E3F2-53C7-D32BF61B0847</designId>
+</OSDM_Design>

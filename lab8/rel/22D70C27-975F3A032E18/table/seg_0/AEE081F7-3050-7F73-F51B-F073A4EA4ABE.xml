@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEE081F7-3050-7F73-F51B-F073A4EA4ABE" name="VOLUNTEER">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>B4A32AC3-58F0-C4B9-DCCD-6C917C8BC7CA</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_NUMBER" id="02CF7B7E-DCB9-38B0-4A0F-67BDDC34BCA3">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>36D19CD7-0805-0F21-547E-B3B0B1490C49</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUCTOR_ID" id="023843B2-9853-06B8-7796-0DD4756ABB29">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>C1680BCF-34D2-2275-59ED-047950166D06</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4DB1DE3-4424-2F23-11E0-B1134A957141" name="VOLUNTEER_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>5659A87E-C89C-E30F-A12D-D082BDA1D9D9</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02CF7B7E-DCB9-38B0-4A0F-67BDDC34BCA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6F8AD02-2765-DEFD-DDFF-DE2696FCE8E8" name="VOLUNTEER_PKv1">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:43:10 UTC</createdTime>
+<generatorID>2251E25C-2BBE-8718-8009-D134A4DE281E</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="023843B2-9853-06B8-7796-0DD4756ABB29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

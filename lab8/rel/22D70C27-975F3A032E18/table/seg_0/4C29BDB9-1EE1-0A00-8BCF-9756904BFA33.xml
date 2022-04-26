@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C29BDB9-1EE1-0A00-8BCF-9756904BFA33" name="CLASS">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>C25402F2-69F3-A849-A3EB-F16856F356C1</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLASS_ID" id="06B96CE9-4609-E5D4-47DC-E9400613F9DB">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>B3F329D1-B467-0EB2-6EBE-945F3EE8AB29</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUCTOR_NUMBER" id="FEEDB731-5A11-10F5-77F4-1660E92B4B35">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>423F187A-9857-9A4E-57EC-E3EB2E27CC89</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEEKDAY" id="AB77DDBF-F962-1265-1685-D6DDAF1961F0">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>5247479F-3A8E-E781-FCB9-9C0FA849A00D</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="B61BEF4B-BBA0-EC18-861E-A3AD022D7707">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>54F6D77D-A31D-BBC0-6A4A-A2BE0BB9A247</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="4F097CF0-C960-93BB-AE19-A40954B87BAA">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>C3C7079C-0CD8-9AA4-14AA-0B6B101919A8</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEVEL" id="503777AD-577D-37BC-7ED7-3654398CA93F">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>96153D07-A040-8D75-C3E6-A345E69C87F4</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41911611-EE4A-64BF-E6F9-92E632E71A54" name="CLASS_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 01:19:39 UTC</createdTime>
+<generatorID>844F85C7-82E2-707A-6C7E-EA8F34547C60</generatorID>
+<ownerDesignName>lab8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06B96CE9-4609-E5D4-47DC-E9400613F9DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

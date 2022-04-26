@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18456B21-B989-6090-EA42-720088CDE30E" name="INSTRUCTOR">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>C1A45081-45D2-88D2-121E-3F6B7408BBE8</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_ID" id="09FAFA22-2B7B-5655-646B-8EEEF7D313C7">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>B0962AFC-3CAD-D697-3D25-4A7B6756296D</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B4DC2EF-AB58-3226-8C17-53502711D999" referredColumn="22D8E159-5802-054E-36A0-7E02C4F3BD9B"/>
+</associations>
+</Column>
+<Column name="INSTRUCTOR_ID" id="E2CC8E76-9EB5-9B75-B923-7B0CA0FCEF37">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>13BAA037-65D6-5A7A-AD8A-04974961DE13</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_STARTED" id="E887D33B-BC8C-36C8-FDC2-F3F6921258D5">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>16B0A881-FAE8-A329-22A8-73155C910246</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="F6FFB347-BB73-F581-A0FE-0F3E576B3300">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>B198F9CB-E714-AEBB-A4B0-94F9FDFC1721</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEE14875-97B6-5EDA-25CA-0253F937F6C5" name="INSTRUCTOR_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>C23C50FB-BBFE-CA18-B5AD-0FE02ECC302A</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09FAFA22-2B7B-5655-646B-8EEEF7D313C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A982C704-122A-9BDE-06FD-68953A3A1503" name="INSTRUCTOR_PKv1">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>75436AC9-DF58-AB4F-AFF6-926CB4B5A1C0</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2CC8E76-9EB5-9B75-B923-7B0CA0FCEF37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6ABC8DB-BF66-61B2-5BD6-3954145E8975" name="INSTRUCTOR_STUDENT_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 02:08:51 UTC</createdTime>
+<generatorID>5C7215A4-AEEF-21E2-C8FB-C1E76CE6C06F</generatorID>
+<ownerDesignName>lab8_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09FAFA22-2B7B-5655-646B-8EEEF7D313C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CE341D6-D433-5CE7-7A46-BF0791962082" name="Appointment">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:15:50 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Appointment</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="APP_ID" id="3D2B84F8-C721-96C4-2C37-C7DACE2501F6">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:16:03 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APPT_DATE" id="57484D21-7300-C214-56ED-F63486C87DB5">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:20:35 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APPT_TIME" id="9CBCFAB7-0B13-7151-1CA5-0C8D83FE7F57">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:20:54 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLINIC" id="D46E0DA9-357C-8D9A-DBC8-EB35CA83E7AA">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:21:08 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APPT_STATUS" id="B136D310-E9FC-E1AD-FAFD-9DD902EEE2FE">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:16:29 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOC_ID" id="A5CC9A8B-F8FF-91A4-B8BF-ABF46E8012DF">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:21:49 UTC</createdTime>
+<generatorID>0872C287-8D12-E8E7-8593-0AFDBE9A7D30</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<referedAttribute>1EF31BB6-9626-03AB-5BC5-ED2CA6E7E77C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PATIENT_ID" id="87ABF628-5066-F727-CF83-E5B9CE1C0B92">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:04 UTC</createdTime>
+<generatorID>35B7969F-7A9A-3649-0C6A-EC3DDA2C14BB</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<referedAttribute>73CF00A1-F5B5-1E8C-ADF2-698E9B8F79A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EABD917A-E5AF-5B86-038B-B3811AA395D7" name="Appointment PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:16:27 UTC</createdTime>
+<ownerDesignName>lab9</ownerDesignName>
+<engineerTo>
+<item key="A1D9D561-0A78-503C-A3D1-B104DB07C396" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D2B84F8-C721-96C4-2C37-C7DACE2501F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

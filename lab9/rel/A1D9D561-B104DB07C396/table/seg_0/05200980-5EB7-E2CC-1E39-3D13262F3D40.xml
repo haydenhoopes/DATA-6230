@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05200980-5EB7-E2CC-1E39-3D13262F3D40" name="Appointment">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>8CE341D6-D433-5CE7-7A46-BF0791962082</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<abbreviation>Appointment</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APP_ID" id="51D93F76-2F9D-86E9-7BE8-451111A17726">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>3D2B84F8-C721-96C4-2C37-C7DACE2501F6</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPT_DATE" id="F26D286E-4BAB-7A80-C237-DC527FFA6203">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>57484D21-7300-C214-56ED-F63486C87DB5</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPT_TIME" id="8C9364A1-4FDC-4642-6D13-2EC671965B97">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>9CBCFAB7-0B13-7151-1CA5-0C8D83FE7F57</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLINIC" id="F1CC059C-0D04-BE03-8B81-3CE0EA109F0E">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>D46E0DA9-357C-8D9A-DBC8-EB35CA83E7AA</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPT_STATUS" id="D7C36A75-45AA-0572-8D3A-AF1187E0F2B7">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>B136D310-E9FC-E1AD-FAFD-9DD902EEE2FE</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOC_ID" id="250B9A18-003C-C5DC-117B-948E08FD9FD5">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>A5CC9A8B-F8FF-91A4-B8BF-ABF46E8012DF</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441F519F-012E-FC8A-E62E-EEF469092F8A" referredColumn="1564F5E8-88E9-9856-7D01-83E985FD2FFC"/>
+</associations>
+</Column>
+<Column name="PATIENT_ID" id="D299F33A-8AE9-0F36-6F9D-164558631345">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>87ABF628-5066-F727-CF83-E5B9CE1C0B92</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4D5F376-5AA9-6327-FFE3-D328C94ADFAE" referredColumn="2C281652-60B0-6085-1191-5137B233DA21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEF3B214-E3B7-A5C2-B131-990DEE6BC44A" name="Appointment_PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>EABD917A-E5AF-5B86-038B-B3811AA395D7</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51D93F76-2F9D-86E9-7BE8-451111A17726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADDAE4A2-B6A9-F232-F962-A7B89D8572BF" name="Appointment_Doctor_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>0872C287-8D12-E8E7-8593-0AFDBE9A7D30</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="250B9A18-003C-C5DC-117B-948E08FD9FD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19C1D2D8-B8AD-0BA2-22D4-6E43F623C0C6" name="Appointment_Patient_FK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-27 22:23:56 UTC</createdTime>
+<generatorID>35B7969F-7A9A-3649-0C6A-EC3DDA2C14BB</generatorID>
+<ownerDesignName>lab9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D299F33A-8AE9-0F36-6F9D-164558631345"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

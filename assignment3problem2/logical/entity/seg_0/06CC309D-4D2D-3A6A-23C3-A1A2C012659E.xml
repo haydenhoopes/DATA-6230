@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06CC309D-4D2D-3A6A-23C3-A1A2C012659E" name="PART">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:48:30 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PART_ID" id="EC622368-EBA1-2286-7E4D-67429879A327">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:48:38 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="B71690B8-6A61-5DAD-59D0-CF3F8F8513A6">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:49:18 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATERIAL" id="DE4C90A0-D138-7E4A-0C64-7AB05A2BC90C">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:49:29 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEIGHT" id="84966CB8-2565-B1F1-44B2-D4135CD7E451">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:49:42 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LENGTH" id="E8A20B2B-B013-767F-8865-3FDA5EDA6D1E">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:50:18 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HEIGHT" id="3AF302BF-3A0D-A9C4-94C8-D4AFFA03928A">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:50:33 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENDOR_ID" id="60BEC750-25FC-2261-D8A6-0E4F8C8035AA">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 21:04:03 UTC</createdTime>
+<generatorID>4A30525E-0C14-C93F-9F7D-CF72D3A5BF95</generatorID>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>51757587-AB61-6F19-FAA9-26F6B5D9DFFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B49641C9-E1EB-CFC1-C2FA-D85A63E3ACD7" name="PART PK">
+<createdBy>HaydenH</createdBy>
+<createdTime>2022-03-20 20:49:17 UTC</createdTime>
+<ownerDesignName>assignment3problem2</ownerDesignName>
+<engineerTo>
+<item key="FDC5C006-C921-3C14-CE32-91FE9B411FE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC622368-EBA1-2286-7E4D-67429879A327</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
